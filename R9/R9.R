@@ -5,7 +5,6 @@ plot(measles,pch=21,bg="green",col=cm.colors(12),main= " Deaths in London from m
 install.packages("lattice")
 library(lattice) 
 xyplot(value~time, data=measles,main= " Deaths in London from measles", pch=".",cex=2.5)
-
 wireframe(volcano, shade = TRUE, aspect = c(61/87, 0.4),light.source = c(10,0,10))
 #ggplot2 graphics
 install.packages("ggplot2")

@@ -12,6 +12,3 @@ install.packages("ggplot2")
 library(ggplot2)
 ggplot(measles, aes(x=time,y=value))+geom_line(linetype=3)
 ggplot(measles, aes(x=time,y=value))+geom_point()
-
-
-

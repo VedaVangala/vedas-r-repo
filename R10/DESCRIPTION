@@ -1,0 +1,18 @@
+Package: Veda
+Title: Function for Addition 
+Version: 0.1.0
+Date: 2023-03-20
+Authors@R: c(person("Veda", "Developer", role = c("aut", "cre"),
+                     email = "vedar@some.domain.net"),
+                     person("A.", "User", role = "ctb",
+                     email = "A.User@whereever.net"))
+Author: Veda Developer [aut, cre],
+        A. User [ctb]
+Maintainer: Veda Developer <vedar@some.domain.net>
+Description: This package provides function for adding values in R.It returns 
+    the value after calling the function which when implemented can be used to 
+    count n number of digits.  
+Depends: R (>= 3.1.0)
+License: CC0
+LazyData: true
+RoxygenNote: 7.2.3
